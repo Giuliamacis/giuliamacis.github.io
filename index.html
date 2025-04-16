@@ -41,15 +41,6 @@
 
 				</div>
 
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
 
 			</div>
 
@@ -130,6 +121,14 @@
 							</div>
 							<header><h3>Relational Database Design</h3></header>
 						</article>
+
+						<article class="item hoverable" onclick="openModal('modal-powerbi')">
+							<div class="image fit">
+							  <img src="images/powerbi.png" alt="Power BI Project" />
+							  <div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>Power BI Project</h3></header>
+						</article>
 				
 						</div>
 				
@@ -151,7 +150,9 @@
 							</div>
 							<header><h3>Ubisoft Market Intelligence</h3></header>
 						</article>
-				
+						
+						
+						
 						</div>
 				
 					</div>
@@ -201,27 +202,20 @@
 
 				<!-- Contact -->
 					
-					<section id="contact" class="four">
-						<div class="container">
+				<section id="contact" class="four">
+					<div class="container">
 						<header>
 							<h2>Contact</h2>
 						</header>
-						<p>I'd love to hear from you! Whether you have a question, opportunity, or just want to connect, feel free to reach out. Let's start a conversation!</p>
-					
-						<form method="POST" action="/">
-							<div class="row">
-							<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required /></div>
-							<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email" required /></div>
-							<div class="col-12">
-								<textarea name="message" placeholder="Message" required></textarea>
-							</div>
-							<div class="col-12">
-								<input type="submit" value="Send Message" />
-							</div>
-							</div>
-						</form>
+						<p>Feel free to reach out via the following links:</p>
+						<div class="social-links">
+							<a href="https://www.linkedin.com/in/giulia-macis-3a0056300/" target="_blank" class="social-link">LinkedIn</a>
+							<a href="https://github.com/Giuliamacis?tab=repositories" target="_blank" class="social-link">GitHub</a>
+							<a href="mailto:macisgiulia@gmail.com" class="social-link">Email</a>
 						</div>
-					</section>
+					</div>
+				</section>
+				
 
 		<!-- Footer -->
 			<div id="footer">
@@ -250,7 +244,7 @@
 		<div class="modal-content">
 		  <span class="close" onclick="closeModal('modal-lvmh')">&times;</span>
 		  <h3>📊 Financial Analysis of LVMH & Ferragamo</h3>
-		  <p>Conducted a comparative financial performance analysis using Python. I evaluated profitability, liquidity, and valuation metrics to identify strategic strengths and risks between two luxury giants.</p>
+		  <p>Conducted a comparative financial performance analysis using Python. I evaluated profitability and valuation metrics to identify strategic strengths and risks between two luxury giants.</p>
 		  <ul>
 			<li>🛠️ <strong>Tools:</strong> Python, Pandas, Matplotlib</li>
 			<li>🧠 <strong>Skills:</strong> Financial ratio analysis, data visualization, benchmarking</li>
@@ -266,13 +260,13 @@
 		<div class="modal-content">
 		  <span class="close" onclick="closeModal('modal-crm')">&times;</span>
 		  <h3>📇 CRM Analysis</h3>
-		  <p>Analyzed customer data to improve engagement and retention for a B2B company. Created segments, tracked campaign results, and identified churn risk factors.</p>
+		  <p>Analyzed customer data to improve engagement and retention for a video game company. Predicted churn,identified churn risk factors, calculated customer lifetime value, and sugguested marketing campaigns and in game changes based on the analysis.</p>
 		  <ul>
-			<li>🛠️ <strong>Tools:</strong> Excel, Python, Power BI</li>
+			<li>🛠️ <strong>Tools:</strong> Python, CRM libraries</li>
 			<li>🧠 <strong>Skills:</strong> Customer segmentation, CLV analysis, retention strategy</li>
-			<li>✅ <strong>Outcome:</strong> Built dashboards and recommendations that improved client re-engagement</li>
+			<li>✅ <strong>Outcome:</strong> Built recommendations that improved client re-engagement and prevented churn</li>
 		  </ul>
-		  <p>🏷️ <em>#CRM #Retention #PowerBI</em></p>
+		  <p>🏷️ <em>#CRM #Retention #strategies </em></p>
 		  <a href="https://github.com/Giuliamacis/CRM-analysis" target="_blank">📂 View on GitHub</a>
 		</div>
 	</div>
@@ -282,7 +276,7 @@
 		<div class="modal-content">
 		  <span class="close" onclick="closeModal('modal-churn')">&times;</span>
 		  <h3>🔁 Churn Prediction & Segmentation</h3>
-		  <p>Developed an R-based machine learning model to predict churn and segment customers based on behavioral patterns for strategic targeting.</p>
+		  <p>Deployed R-based machine learning models to predict churn and segment customers based on behavioral patterns for strategic targeting.</p>
 		  <ul>
 			<li>🛠️ <strong>Tools:</strong> R, caret, ggplot2</li>
 			<li>🧠 <strong>Skills:</strong> Predictive modeling, clustering, classification</li>
@@ -297,30 +291,30 @@
 	<div id="modal-database" class="modal">
 		<div class="modal-content">
 		  <span class="close" onclick="closeModal('modal-database')">&times;</span>
-		  <h3>🗄️ Relational Database Design</h3>
-		  <p>Created and queried a structured SQL database for a fictional business to support inventory, sales, and customer tracking.</p>
+		  <h3>🛩️ Airplane Crash Data Analysis</h3>
+		  <p>Analyzed airplane crash data spanning over a century to explore key patterns, fatalities, and crash reasons using SQL queries and Python for data manipulation and visualization.</p>
 		  <ul>
-			<li>🛠️ <strong>Tools:</strong> SQL, MySQL Workbench</li>
-			<li>🧠 <strong>Skills:</strong> Database normalization, ER diagrams, business logic modeling</li>
-			<li>✅ <strong>Outcome:</strong> Delivered a functional DB that answered key business queries</li>
+			<li>🛠️ <strong>Tools:</strong> Python, MySQL, Matplotlib</li>
+			<li>🧠 <strong>Skills:</strong> Data manipulation, SQL querying, data visualization, Python scripting</li>
+			<li>✅ <strong>Outcome:</strong> Provided insights into crash trends, most frequent operators, and fatality patterns over time</li>
 		  </ul>
-		  <p>🏷️ <em>#SQL #DatabaseDesign #DataModeling</em></p>
-		  <a href="https://github.com/Giuliamacis/Database-project" target="_blank">📂 View on GitHub</a>
+		  <p>🏷️ <em>#DatabaseAnalysis #SQL #DataVisualization #AirplaneCrashes</em></p>
+		  <a href="https://github.com/Giuliamacis/Airplane-Crashes-Analysis" target="_blank">📂 View on GitHub</a>
 		</div>
 	</div>
 	  
 	
 	<div id="modal-youtube" class="modal">
 		<div class="modal-content">
-		  <span class="close" onclick="closeModal('modal-youtube')">&times;</span>
-		  <h3>🎮 YouTube Comment Analysis</h3>
-		  <p>Used natural language processing to extract sentiment and topics from gamer communities on YouTube, exploring user reactions to new video games.</p>
-		  <ul>
-			<li>🛠️ <strong>Tools:</strong> Python, NLTK, LDA, Pandas</li>
-			<li>🧠 <strong>Skills:</strong> Sentiment analysis, topic modeling, data cleaning</li>
-			<li>✅ <strong>Outcome:</strong> Detected emotional responses and key themes from player comments</li>
-		  </ul>
-		  <p>🏷️ <em>#NLP #YouTubeAnalysis #GamerInsights</em></p>
+			<span class="close" onclick="closeModal('modal-youtube')">&times;</span>
+			<h3>🎤 Behavioral Insights from YouTube Comments: Trump’s 2016 vs. 2025 Inaugurations</h3>
+			<p>Used sentiment analysis and topic modeling to explore shifts in public sentiment under Trump’s inauguration speeches, analyzing comments from left-wing and right-wing channels testing statistical difference.</p>
+			<ul>
+				<li>🛠️ <strong>Tools:</strong> Python, Sentiment Analysis, Topic Modeling, YouTube Data API</li>
+				<li>🧠 <strong>Skills:</strong> Text mining, sentiment analysis, data cleaning, data visualization</li>
+				<li>✅ <strong>Outcome:</strong> Identified evolving public discourse and sentiment differences between 2016 and 2025</li>
+			</ul>
+			<p>🏷️ <em>#SentimentAnalysis #YouTubeComments #PoliticalDiscourse</em></p>
 		  <a href="https://github.com/Giuliamacis/Text-analysis-on-Youtube-comments" target="_blank">📂 View on GitHub</a>
 		</div>
 	</div>
@@ -329,16 +323,33 @@
 		<div class="modal-content">
 		  <span class="close" onclick="closeModal('modal-ubisoft')">&times;</span>
 		  <h3>🎯 Ubisoft Market Intelligence</h3>
-		  <p>Developed a method to predict gamer uproar and sales risks by analyzing early YouTube comment sentiment and topic trends on new game releases.</p>
+		  <p>Developed a method to predict gamer uproar by analyzing early YouTube comment sentiment and topic trends on new game releases.</p>
 		  <ul>
 			<li>🛠️ <strong>Tools:</strong> Python, YouTube API, LDA, Sentiment Libraries</li>
 			<li>🧠 <strong>Skills:</strong> Text mining, behavioral signal detection, predictive analysis</li>
-			<li>✅ <strong>Outcome:</strong> Helped Ubisoft anticipate controversy based on early comment data</li>
+			<li>✅ <strong>Outcome:</strong> Won the UBISOFT Challenge 2024!</li>
 		  </ul>
 		  <p>🏷️ <em>#GamingAnalytics #YouTubeMining #MarketSignals</em></p>
 		  <a href="https://github.com/Giuliamacis/ubisoft-project" target="_blank">📂 View on GitHub</a>
 		</div>
 	</div>
+
+	<!-- Modal for Power BI Project -->
+	<div id="modal-powerbi" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-powerbi')">&times;</span>
+		<h3>📊 Power BI Project: Bike Store Business Analysis</h3>
+		<p>This Power BI project involved analyzing data to develop a strategic plan for a small bike store. The goal was to identify profitable products, trends, and optimal geographic locations, and to demonstrate how Power BI can be used to inform business decisions.</p>
+		<ul>
+			<li>🛠️ <strong>Tools:</strong> Power BI, DAX, Data Modeling, Visualization</li>
+			<li>🧠 <strong>Skills:</strong> Data Cleaning, Interactive Dashboards, KPI Analysis, Business Strategy</li>
+			<li>✅ <strong>Outcome:</strong> Created an interactive Power BI dashboard that highlights key insights and provides actionable recommendations for establishing a successful small business.</li>
+		</ul>
+		<p>🏷️ <em>#PowerBI #BusinessAnalysis #DataVisualization</em></p>
+		<a href="https://github.com/Giuliamacis/PowerBI-project" target="_blank">📂 View on GitHub</a>
+		</div>
+	</div>
+  
 	  
 	  
 	</body>
