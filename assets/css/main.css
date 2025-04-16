@@ -2162,6 +2162,8 @@ input, select, textarea {
 				-webkit-transition: none;
 				-ms-transition: none;
 				transition: none;
+				font-weight: 400;
+				font-size: 1.05em;
 			}
 
 				#nav ul li a span {
@@ -2840,4 +2842,13 @@ input, select, textarea {
 	height: 100%;
 	object-fit: cover;
 	display: block;
+}
+
+.avatar-wrapper {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #fff; /* clean white frame */
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); /* subtle depth */
 }
