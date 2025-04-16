@@ -9,6 +9,8 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600" rel="stylesheet">
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -73,90 +75,89 @@
 
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>These projects reflect my unique blend of technical expertise and strategic thinking 
-								I’ve developed through my MSc in Marketing Analytics and BSc in Management and Computer Science. 
-								From machine learning and NLP to CRM analysis and storytelling, each project showcases my ability to 
-								turn complex data into compelling narratives and actionable insights. <br />
-							Feel free to check them out!</p>
-
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/Financial-Analysis-and-Valuation-of-LVMH-and-Ferragamo-A-Python-Based-Approach-to-Performance-Ri" target="_blank" class="image fit">
-											<img src="images/financial_analysis.png" alt="LVMH & Ferragamo Financial Analysis" />
-										</a>
-										<header>
-											<h3>Financial Analysis of LVMH & Ferragamo</h3>
-										</header>
-									</article>
-									
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/CRM-analysis" target="_blank" class="image fit">
-											<img src="images/crm.png" alt="CRM Analysis Project" />
-										</a>
-										<header>
-											<h3>CRM Analysis</h3>
-											<p>Analyzed customer data to optimize sales and retention strategies.</p>
-										</header>
-									</article>
-									
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/Churn-prediction-and-customer-segmentation-in-R-studio" target="_blank" class="image fit">
-											<img src="images/churn.png" alt="Churn Prediction Project" />
-										</a>
-										<header>
-											<h3>Churn Prediction & Segmentation</h3>
-											<p>R-based model to identify churn risk and segment customers.</p>
-										</header>
-									</article>
-									
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/Database-project" target="_blank" class="image fit">
-											<img src="images/database.png" alt="Database Project" />
-										</a>
-										<header>
-											<h3>Relational Database Design</h3>
-											<p>Designed and queried a database with SQL for business insights.</p>
-										</header>
-									</article>
-									
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/Text-analysis-on-Youtube-comments" target="_blank" class="image fit">
-											<img src="images/youtube.png" alt="Text Analysis on YouTube Comments" />
-										</a>
-										<header>
-											<h3>YouTube Comment Analysis</h3>
-											<p>Extracted sentiment and topics from gamer communities using NLP.</p>
-										</header>
-									</article>
-									
-									<article class="item">
-										<a href="https://github.com/Giuliamacis/ubisoft-project" target="_blank" class="image fit">
-											<img src="images/ubisoft.png" alt="Ubisoft Project" />
-										</a>
-										<header>
-											<h3>Ubisoft Market Intelligence</h3>
-											<p>Predicted gamer uproar and sales impact using YouTube data.</p>
-										</header>
-									</article>
-									
-								</div>
+				<section id="portfolio" class="two">
+					<div class="container">
+				
+					<header>
+						<h2>Portfolio</h2>
+					</header>
+				
+					<p>These projects reflect my unique blend of technical expertise and strategic thinking 
+						I’ve developed through my MSc in Marketing Analytics and BSc in Management and Computer Science. 
+						From machine learning and NLP to CRM analysis and storytelling, each project showcases my ability to 
+						turn complex data into compelling narratives and actionable insights. <br />
+					Feel free to check them out!</p>
+				
+					<div class="row">
+				
+						<!-- Column 1 -->
+						<div class="col-4 col-12-mobile">
+				
+						<article class="item hoverable" onclick="openModal('modal-lvmh')">
+							<div class="image fit">
+							<img src="images/financial_analysis.png" alt="LVMH & Ferragamo Financial Analysis" />
+							<div class="overlay"><span>View Project</span></div>
 							</div>
-
+							<header><h3>Financial Analysis of LVMH & Ferragamo</h3></header>
+						</article>
+				
+						<article class="item hoverable" onclick="openModal('modal-crm')">
+							<div class="image fit">
+							<img src="images/crm.png" alt="CRM Analysis" />
+							<div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>CRM Analysis</h3></header>
+						</article>
+				
 						</div>
-					</section>
+				
+						<!-- Column 2 -->
+						<div class="col-4 col-12-mobile">
+				
+						<article class="item hoverable" onclick="openModal('modal-churn')">
+							<div class="image fit">
+							<img src="images/churn.png" alt="Churn Prediction Project" />
+							<div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>Churn Prediction & Segmentation</h3></header>
+						</article>
+				
+						<article class="item hoverable" onclick="openModal('modal-database')">
+							<div class="image fit">
+							<img src="images/database.png" alt="Database Project" />
+							<div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>Relational Database Design</h3></header>
+						</article>
+				
+						</div>
+				
+						<!-- Column 3 -->
+						<div class="col-4 col-12-mobile">
+				
+						<article class="item hoverable" onclick="openModal('modal-youtube')">
+							<div class="image fit">
+							<img src="images/youtube.png" alt="Text Analysis on YouTube Comments" />
+							<div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>YouTube Comment Analysis</h3></header>
+						</article>
+				
+						<article class="item hoverable" onclick="openModal('modal-ubisoft')">
+							<div class="image fit">
+							<img src="images/ubisoft.png" alt="Ubisoft Project" />
+							<div class="overlay"><span>View Project</span></div>
+							</div>
+							<header><h3>Ubisoft Market Intelligence</h3></header>
+						</article>
+				
+						</div>
+				
+					</div>
+				
+					</div>
+				</section>
+  
 
 				<!-- About Me -->
 					<section id="about" class="three">
@@ -223,5 +224,62 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+	<!-- Project Modals -->
+
+	<div id="modal-lvmh" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-lvmh')">&times;</span>
+		<h3>Financial Analysis of LVMH & Ferragamo</h3>
+		<p>Python-based benchmarking and valuation using KPIs, ratios, and dashboards.</p>
+		<a href="https://github.com/Giuliamacis/Financial-Analysis-and-Valuation-of-LVMH-and-Ferragamo-A-Python-Based-Approach-to-Performance-Ri" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	
+	<div id="modal-crm" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-crm')">&times;</span>
+		<h3>CRM Analysis</h3>
+		<p>Analyzed customer data to optimize sales and retention strategies using segmentation and dashboards.</p>
+		<a href="https://github.com/Giuliamacis/CRM-analysis" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	
+	<div id="modal-churn" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-churn')">&times;</span>
+		<h3>Churn Prediction & Segmentation</h3>
+		<p>Built an R-based churn prediction model with clustering for targeted customer retention.</p>
+		<a href="https://github.com/Giuliamacis/Churn-prediction-and-customer-segmentation-in-R-studio" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	
+	<div id="modal-database" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-database')">&times;</span>
+		<h3>Relational Database Design</h3>
+		<p>Designed and queried a relational SQL database for real-time business decision-making.</p>
+		<a href="https://github.com/Giuliamacis/Database-project" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	
+	<div id="modal-youtube" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-youtube')">&times;</span>
+		<h3>YouTube Comment Analysis</h3>
+		<p>Extracted sentiment and topics from gamer communities using NLP techniques and topic modeling.</p>
+		<a href="https://github.com/Giuliamacis/Text-analysis-on-Youtube-comments" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	
+	<div id="modal-ubisoft" class="modal">
+		<div class="modal-content">
+		<span class="close" onclick="closeModal('modal-ubisoft')">&times;</span>
+		<h3>Ubisoft Market Intelligence</h3>
+		<p>Predicted gamer uproar and sales impact using YouTube data and sentiment analysis for strategic decisions.</p>
+		<a href="https://github.com/Giuliamacis/ubisoft-project" target="_blank">View on GitHub</a>
+		</div>
+	</div>
+	  
 	</body>
 </html>
