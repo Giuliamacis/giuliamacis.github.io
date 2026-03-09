@@ -2273,15 +2273,26 @@ input, select, textarea {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
 
+					
+			
 			#main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
 			}
-
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #f5f3ee;
+
+				background-image: 
+				linear-gradient(
+					rgba(255,255,255,0.35),
+					rgba(255,255,255,0.35)
+				),
+				url("../../images/banner.jpg");
+
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 
 			#main > section.two {
@@ -2792,31 +2803,27 @@ input, select, textarea {
 	display: block;
 	margin: 0 auto 2em auto;
 	border-radius: 12px;
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  }
-  
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
 .about-columns {
-	display: flex;
-	justify-content: center;
+	width: 100%;
+	max-width: 900px;
+	margin: 1.5em auto 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 	gap: 2em;
-	flex-wrap: wrap;
-	margin-top: 1em;
-  }
-  
-.about-columns .column {
-	flex: 1 1 280px;
-	max-width: 320px;
-	text-align: left;
-  }
-  
+	align-items: start;
+}
+
 .about-columns p {
-	font-size: 1.05em;
-	line-height: 1.7;
+	font-size: 0.75em;
+	line-height: 1.60;
 	color: #444;
-	text-align: center;
-  }
-  
-  /* Optional: Inspirational quote */
+	text-align: left;
+}
+
+/* Optional: Inspirational quote */
 #about blockquote {
 	font-style: italic;
 	color: #666;
